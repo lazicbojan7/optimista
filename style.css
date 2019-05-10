@@ -1,0 +1,40 @@
+body {
+  /*background-image: url('./src/assets/background3.jpg');
+  background-size: cover;
+  background-attachment: fixed;*/
+}
+#app {
+  /*mora ovde zbog blura*/
+  /*background-image: url('./src/assets/bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;*/
+  /*background-image: url('./src/assets/bg.jpg');*/
+
+}
+h1, h2, h3, h4 {
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 25px;
+  display: inline;
+}
+p {
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 15px;
+}
+a, a:hover, router-link, router-link:hover {
+  text-decoration: none;
+}
+.opt-bg-blue {
+  background-color: rgba(0, 33, 254, 0.2);
+}
+.opt-bg-orange {
+  background-color: rgba(255, 99, 0, 0.2);
+}
+.opt-bg-green {
+  background-color: rgba(0, 255, 18, 0.2);
+}
+.opt-bg-black {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.opt-bg-white {
+  background-color: rgba(255, 255, 255, 0.5);
+}
